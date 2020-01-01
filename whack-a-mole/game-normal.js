@@ -30,7 +30,9 @@ window.onload = function() {
     resetScoreAndTime();
 
     var intervalID = setInterval(peep, 800);
-    setTimeout(_ => {clearInterval(intervalID)}, gameTime-500);
+    setTimeout(_ => {
+      clearInterval(intervalID);
+    }, gameTime - 500);
 
     setTimeout(_ => {
       startBtn.style.display = "inline-block";
