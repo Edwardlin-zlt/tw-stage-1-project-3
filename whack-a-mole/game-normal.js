@@ -52,7 +52,7 @@ window.onload = function() {
   function resetScoreAndTime() {
     score = 0;
     scoreBoard.innerText = 0;
-    startBtn.innerText = "Start!";
+    // startBtn.innerText = "Start!";
     titleH1.innerText = "WHACK-A-MOLE! ";
   }
 
